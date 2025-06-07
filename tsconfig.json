@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "es2022",
+		"module": "preserve",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "hono/jsx",
+		"lib": ["es2022", "dom", "dom.iterable"],
+		"types": ["vite/client", "@cloudflare/workers-types"]
+	}
+}

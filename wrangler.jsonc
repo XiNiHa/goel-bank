@@ -10,6 +10,6 @@
 			"database_name": "goel-bank",
 			"database_id": "861f1bd7-f2ee-40e1-9944-66cf9029392e",
 			"migrations_dir": "drizzle"
-		},
-	],
+		}
+	]
 }

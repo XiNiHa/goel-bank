@@ -10,7 +10,8 @@
 	},
 	"dependencies": {
 		"drizzle-orm": "1.0.0-beta.1-c0277c0",
-		"hono": "^4.7.11",
+		"h3": "npm:h3-nightly@2.0.0-20250608-162332-5ac3d06",
+		"mono-jsx": "^0.6.6",
 		"temporal-polyfill": "^0.3.0",
 		"uuid": "^11.1.0"
 	},
@@ -25,6 +26,7 @@
 		"tailwindcss": "^4.1.8",
 		"typescript": "^5.8.3",
 		"vite": "^6.3.5",
+		"vite-plugin-tsconfig-paths": "^1.4.1",
 		"wrangler": "^4.19.1"
 	},
 	"packageManager": "pnpm@10.11.0"

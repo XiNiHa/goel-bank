@@ -15,8 +15,11 @@
 		"noUncheckedIndexedAccess": true,
 		"noImplicitOverride": true,
 		"jsx": "react-jsx",
-		"jsxImportSource": "hono/jsx",
+		"jsxImportSource": "mono-jsx",
 		"lib": ["es2022", "dom", "dom.iterable"],
-		"types": ["vite/client", "@cloudflare/workers-types"]
+		"types": ["vite/client", "@cloudflare/workers-types"],
+		"paths": {
+			"~/*": ["./src/*"]
+		}
 	}
 }
